@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import ColorGen from './components/ColorGen';
 import Header from './components/Header';
+// import Footer from './components/Footer';
 
 function App() {
   const [colorG, setColorG] = useState('	#FFFFFF');
@@ -30,6 +31,7 @@ function App() {
         titleCol={colorG}
       />
       <ColorGen hex={colorG} />
+      {/* <Footer hex={colorG} /> */}
     </div>
   );
 }
