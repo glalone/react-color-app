@@ -1,9 +1,11 @@
-const ColorDisplay = ({ hex }) => {
-  return (
-    <div style={{ backgroundColor: hex }}>
-      <h1>{hex}</h1>
-    </div>
-  );
-};
+// import ColorGen from './ColorGen';
 
-export default ColorDisplay;
+// const ColorDisplay = ({ lum, hue, testHex }) => {
+//   return (
+//     <div>
+//       <ColorGen lumin={lum} huein={hue} hex={testHex} />
+//     </div>
+//   );
+// };
+
+// export default ColorDisplay;
