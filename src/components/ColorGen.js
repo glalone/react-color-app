@@ -8,8 +8,10 @@ const ColorGen = ({ hex }) => {
   // });
   console.log({ hex });
   return (
-    <div style={{ backgroundColor: hex }}>
-      <h1>{hex}</h1>
+    <div>
+      <h1 style={{ backgroundColor: hex, color: 'white', width: '150px' }}>
+        {hex}
+      </h1>
     </div>
   );
 };
