@@ -9,14 +9,12 @@ const Button = ({ text, onClick }) => {
 };
 
 Button.defaultProps = {
-  // color: 'blue',
   text: 'c`est la vie',
 };
 
 Button.propTypes = {
   text: PropTypes.string,
   onClick: PropTypes.func,
-  // color: PropTypes.string,
 };
 
 export default Button;

@@ -1,11 +1,6 @@
 import PropTypes from 'prop-types';
 
 const ColorGen = ({ hex }) => {
-  // const randomColor = require('randomcolor');
-  // const hex2 = randomColor({
-  //   luminosity: lumin,
-  //   hue: huein,
-  // });
   console.log({ hex });
   return (
     <div>

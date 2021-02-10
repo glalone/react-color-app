@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import ColorGen from './components/ColorGen';
+import Footer from './components/Footer';
 import Header from './components/Header';
-// import Footer from './components/Footer';
 
 function App() {
   const [colorG, setColorG] = useState('	#FFFFFF');
@@ -31,17 +31,9 @@ function App() {
         titleCol={colorG}
       />
       <ColorGen hex={colorG} />
-      {/* <Footer hex={colorG} /> */}
+      <Footer hex={colorG} />
     </div>
   );
 }
 
 export default App;
-
-// style={{
-//   backgroundImage: `url("https://gtswiki.gt-beginners.net/decal/png/64/60/41/5053702955739416064_1.png")`,
-
-//   backgroundColor: 'green',
-// }}
-
-// https://www.pngkey.com/png/full/61-618676_marilyn-monroe-gr-marilyn-monroe-andy-warhol-black.png
